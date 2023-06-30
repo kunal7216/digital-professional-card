@@ -1,6 +1,7 @@
 const buttons = document.querySelectorAll(".card-buttons button");
 const sections = document.querySelectorAll(".card-section");
 const card = document.querySelector(".card");
+
 const handleButtonClick = e => {
   const targetSection = e.target.getAttribute("data-section");
   const section = document.querySelector(targetSection);
